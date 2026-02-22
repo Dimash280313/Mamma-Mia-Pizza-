@@ -1,0 +1,141 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Delius+Unicase:wght@400;700&family=Great+Vibes&family=Lobster&family=Luckiest+Guy&family=Marck+Script&family=Pinyon+Script&family=Playwrite+CU+Guides&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Betania+Patmos&family=Delius+Unicase:wght@400;700&family=Gamja+Flower&family=Great+Vibes&family=Lobster&family=Luckiest+Guy&family=Marck+Script&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Betania+Patmos&family=Dancing+Script:wght@400..700&family=Delius+Unicase:wght@400;700&family=Gamja+Flower&family=Great+Vibes&family=Lobster&family=Luckiest+Guy&family=Marck+Script&family=Pinyon+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU+Guides&display=swap');
+
+
+ *{
+   padding: 0;
+   margin: 0;
+   box-sizing: 0;
+   background-repeat:no-repeat;
+ }
+
+ body {
+  background: url(/img/вечный\ город.gif);
+  background-repeat: no-repeat;
+  background-size: 2000px;
+ }
+
+.our_history_h1 {
+    color: transparent;
+    -webkit-text-stroke: 3px white;
+    margin: 0;
+    display: flex;            
+    justify-content: center;  
+    align-items: center;
+    min-height: 100vh; 
+    font-size: 86px;
+    font-family: 'Delius Unicase' , sans-serif;
+    margin-bottom: 250px;
+}
+
+.history h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    margin-bottom: 30px;
+    font-family: 'Dancing Script' , sans-serif;
+}
+
+.history p {
+    font-family: 'Betania Patmos' , sans-serif;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.history img{
+    width: 350px;
+    border-radius: 50px 0 50px 0;
+    float: right;
+    position: relative;
+    top: -200px;
+    margin-right: 100px; 
+}
+
+.where h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    margin-bottom: 75px;
+    font-family: 'Dancing Script' , sans-serif;
+}
+
+.where p {
+    font-family: 'Betania Patmos' , sans-serif;
+    margin-left: 1000px;
+    margin-bottom: 50px;
+}
+
+.where img {
+    width: 350px;
+    height: 500px;
+    border-radius: 0 50px 0 50px;
+    float: left;
+    position: relative;
+    top: -350px;
+    margin-left: 100px; 
+}
+
+.where {
+    margin-bottom: 250px;
+}
+
+.products h1{
+    display: flex;
+    justify-content: center;
+    font-size: 56px;
+    font-family: 'Dancing Script' , sans-serif;
+}
+
+.products p {
+    font-family: 'Betania Patmos' , sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.products_img1_p {
+    width: 350px;
+    border-radius: 50px 0 50px 0;
+    float: right;
+    position: relative;
+    top: -200px;
+    margin-right: 100px; 
+}
+
+.products_img2_m {
+    width: 350px;
+    border-radius: 0 50px 0 50px;
+    float: left;
+    position: relative;
+    margin-right: 700px;
+    top: -100px;
+}
+
+.go_at_home {
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+    margin-bottom: 100px;
+    margin-left:250px;
+    text-decoration: none;
+}
+.go_at_home a {
+    border: 2px solid black;
+    margin-left:250px;
+    text-decoration: none;
+    color: black;
+    padding: 25px 45px;
+    transition: 300ms;
+    border-radius: 5px;
+}
+
+.go_at_home a:hover {
+    padding: 30px 50px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
